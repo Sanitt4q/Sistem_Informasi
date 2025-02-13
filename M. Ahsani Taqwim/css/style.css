@@ -1,0 +1,19 @@
+:root {
+    --primary:#818C78;
+    --bg:#4C7B8B;
+}
+
+
+* {
+    
+    padding: 0;
+    margin: 0;
+    outline: none;
+    border: none;
+}
+
+body {
+    font-family: "Roboto Mono", serif;
+    background-color: var(--bg);
+
+}
