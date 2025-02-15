@@ -10,10 +10,49 @@
     margin: 0;
     outline: none;
     border: none;
+    text-decoration: none;
+
 }
 
 body {
+    
     font-family: "Roboto Mono", serif;
     background-color: var(--bg);
+    color: aliceblue;
 
+}
+
+.navbar  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.4rem 7%;
+    background-color: rgba(5, 116, 79, 0.7);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    
+}
+
+.navbar .navbar-logo {
+    color: blue;
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+.navbar .navbar-logo span {
+    color: red;
+}
+
+.navbar .navbar-nav a{
+    color: aliceblue;
+    margin: 0 2 0 2;
+    
+}
+
+.navbar .navbar-extra a {
+    color: aliceblue;
 }
